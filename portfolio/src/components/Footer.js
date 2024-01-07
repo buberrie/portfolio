@@ -1,4 +1,3 @@
-import React from "react";
 import {Box, Flex} from "@chakra-ui/react";
 
 const Footer = () => {
@@ -14,7 +13,7 @@ const Footer = () => {
           maxWidth="1024px"
           height={16}
         >
-          <p>Pete • © 2022</p>
+          <p>Buberrie • © 2023</p>
         </Flex>
       </footer>
     </Box>
