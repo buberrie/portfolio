@@ -68,7 +68,7 @@ export const Projects = () => {
                     visibleProject === project.id ? [0.95, 1.025, 1] : 0.95,
                 }}
                 transition={{ duration: 0.5 }}>
-                <h3 className="text-xl mb-6 font-semibold capitalize">
+                <h3 className="md:text-xl text-lg mb-6 font-semibold capitalize">
                   {project.title}
                   <span className=" font-normal text-color-sm text-sm">
                     {" "}

@@ -32,7 +32,7 @@ const Page = ({ params }) => {
 
       <div className="mt-10">
         <div className="flex items-center justify-between w-full"> 
-          <h3 className="text-xl mb-6 font-semibold capitalize">
+          <h3 className="md:text-xl text-lg mb-6 font-semibold capitalize">
             {project.title}
             <span className=" font-normal text-color-sm text-sm">
               {" "}
