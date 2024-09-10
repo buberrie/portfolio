@@ -184,8 +184,8 @@ export const Projects = () => {
       </div>
 
       {/* project images */}
-      <div className="md:w-[40.5rem] md:px-0 px-5 w-full md:pt-14 pt-10 md:pb-20 pb-0 sticky md:top-10 -top-6 md:pr-16">
-        <h2 className=" md:ml-[2rem] md:text-start text-center">
+      <div className="md:w-[40.5rem] md:px-0 px-5 w-full md:pt-14 pt-16 md:pb-20 pb-0 sticky md:top-10 -top-6 md:pr-16">
+        <h2 className=" md:ml-[2rem] md:text-start text-center md:top-0 -top-6 relative">
           Personal <span className="linear-text">Projects</span>
         </h2>
 
