@@ -26,6 +26,7 @@ export const Footer = () => {
         {socialIcon.map((social, index) => (
           <a
             href={social.link}
+            target="_blank"
             key={index}
             className=" border-transparent border hover:border-[0.1rem] transition-all w-[1.5rem] h-[1.5rem] text-color a-social">
             {social.icon}
