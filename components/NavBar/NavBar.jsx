@@ -5,30 +5,42 @@ import { useEffect, useState } from "react";
 
 /* eslint-disable @next/next/no-img-element */
 const NavBar = () => {
-  const storedDarkMode = localStorage.getItem("darkMode");
-  const initialDarkMode = storedDarkMode ? JSON.parse(storedDarkMode) : false;
-
-  const [isDarkMode, setDarkMode] = useState(initialDarkMode);
-  const [openNav, setOpenNav] = useState(false);
-
-  console.log(openNav);
-
-  useEffect(() => {
-    document.documentElement.classList.toggle("dark", isDarkMode);
-    localStorage.setItem("darkMode", JSON.stringify(isDarkMode));
-  }, [isDarkMode]);
-
-  const toggleDarkMode = () => {
-    setDarkMode(!isDarkMode);
-  };
+    // Set initial state, light mode as default
+    const [isDarkMode, setDarkMode] = useState(false);
+    const [openNav, setOpenNav] = useState(false);
+  
+    console.log(openNav);
+  
+    // Sync with localStorage and update document class on mount
+    useEffect(() => {
+      // Check if we're on the client side before accessing localStorage
+      if (typeof window !== 'undefined') {
+        const storedDarkMode = localStorage.getItem('darkMode');
+        const initialDarkMode = storedDarkMode ? JSON.parse(storedDarkMode) : false;
+        setDarkMode(initialDarkMode);
+      }
+    }, []); // Only run on mount
+  
+    // Update localStorage and document class when dark mode changes
+    useEffect(() => {
+      document.documentElement.classList.toggle('dark', isDarkMode);
+      localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
+    }, [isDarkMode]); // Run whenever isDarkMode changes
+  
+    // Toggle dark mode state
+    const toggleDarkMode = () => {
+      setDarkMode((prevMode) => !prevMode);
+    };
 
   return (
     <nav className="flex-between sticky top-0 padding-x py-2 main-bg z-50">
+      {/* logo */}
       <a
         href="/"
         className="md:text-xxl text-lg font-['Subjectivity'] font-bold">
         <span className="linear-text">GU</span>.dev
       </a>
+
       {/* darkmode toggle larger screen */}
       <div
         className="flex md:hidden md:w-[4rem] w-[3.4rem] linear-bg hover:scale-105 rounded-[3rem] transition-all md:px-[0.35rem] px-[0.3rem] md:py-[0.35rem] py-[0.3rem] cursor-pointer"
@@ -60,7 +72,7 @@ const NavBar = () => {
 
       {/* hamburger menu */}
       <div
-        className="flex flex-col md:hidden"
+        className=" block md:hidden"
         onClick={() => {
           setOpenNav(true);
         }}>
@@ -134,7 +146,7 @@ const NavBar = () => {
       </ul>
 
       {/* contact button */}
-      <a href="#contact-me"><button className="md:block hidden btn-primary btn">Contact Me</button></a>
+      <a href="#contact-me" className="md:block hidden"><button className=" btn-primary btn">Contact Me</button></a>
     </nav>
   );
 };
