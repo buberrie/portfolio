@@ -41,7 +41,7 @@ const Hero = () => {
             />
             , I&apos;m Gloria Ugwuanyi.
           </span>
-          <h1 className="font-semibold md:text-start text-center md:text-[3rem] base:text-[2.5rem] text-lg linear-text">
+          <h1 className="font-semibold md:text-start text-center md:text-[3rem] base:text-[2.5rem] text-[1.65rem] linear-text">
             <ReactTyped
               strings={["Frontend Web Developer"]}
               typeSpeed={100}
