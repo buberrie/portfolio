@@ -82,11 +82,11 @@ const NavBar = () => {
           height="24"
           viewBox="0 0 24 24"
           fill="none"
-          className="w-">
+          className="w-8">
           <path
             d="M5.14291 7.42857H18.8572M5.14062 12H18.8515M5.14291 16.5714H18.8515"
             stroke="currentColor"
-            stroke-width="1.14286"
+            stroke-width="1.5"
             stroke-linecap="round"
             stroke-linejoin="round"
           />
@@ -98,8 +98,8 @@ const NavBar = () => {
         className={`flex justify-center items-center ${
           openNav
             ? " opacity-100 pointer-events-auto"
-            : "md:opacity-100 opacity-0 md:pointer-events-auto pointer-events-none"
-        } md:flex-row flex-col md:relative absolute right-0 md:gap-10 gap-8 md:bg-transparent main-bg text-[1.05rem] top-0 md:p-0 p-10 rounded-bl-xl transition-all duration-500`}>
+            : "md:opacity-100 opacity-0 md:pointer-events-auto pointer-events-none md:bg-transparent main-bg"
+        } md:flex-row flex-col md:relative absolute right-0 md:gap-10 gap-8 text-[1.05rem] top-0 md:p-0 p-10 rounded-bl-xl transition-all duration-500`}>
         <li
           className="md:hidden block absolute w-full text-end top-6 right-6 font-semibold"
           onClick={() => {

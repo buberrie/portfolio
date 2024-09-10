@@ -441,6 +441,6 @@ h2 {
 @media (max-width: 420px) {
   :root {
     --techstack-width: 1rem;
-    --initial-left: 7.5rem;
+    --initial-left: 6.5rem;
   }
 }

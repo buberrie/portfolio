@@ -41,7 +41,7 @@ const Hero = () => {
             />
             , I&apos;m Gloria Ugwuanyi.
           </span>
-          <h1 className="font-semibold md:text-start text-center md:text-[3rem] base:text-[2.5rem] text-[1.75rem] linear-text">
+          <h1 className="font-semibold md:text-start text-center md:text-[3rem] base:text-[2.5rem] text-[1.65rem] linear-text">
             <ReactTyped
               strings={["Frontend Web Developer"]}
               typeSpeed={100}
@@ -57,7 +57,7 @@ const Hero = () => {
           </p>
 
           {/* tech stack */}
-          <div className="flex gap-8 items-center md:ml-0 ml-5 mt-2 relative">
+          <div className="flex gap-8 items-center md:ml-0 base:ml-5 ml-3 mt-2 relative">
             <div className="pr-3 border-r-2 img-border font-semibold text-color font-subjectivity md:text-md text-sm">
               Tech Stack
             </div>
