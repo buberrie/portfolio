@@ -49,7 +49,7 @@ h6 {
 }
 
 h2 {
-  @apply md:text-xxl text-xl mb-10 font-semibold
+  @apply md:text-xxl text-[1.2rem] mb-10 font-semibold
 }
 
 .font-subjectivity {
@@ -441,6 +441,5 @@ h2 {
 @media (max-width: 420px) {
   :root {
     --techstack-width: 1rem;
-    --initial-left: 6.5rem;
   }
 }

@@ -19,7 +19,7 @@ export const Footer = () => {
             stroke-linejoin="round"
           />
         </svg>
-        <span className="underline">oluebubegloria5@gmail.com</span>
+        <a href="mailto:oluebubegloria5@gmail.com" className="underline">oluebubegloria5@gmail.com</a>
       </div>
 
       <div className="flex gap-4 items-center md:-ml-20">
