@@ -192,7 +192,7 @@ export const Projects = () => {
         {/* image container */}
         {/* desktop display */}
         <motion.div
-          className="relative top-0  md:-left-[5rem] border-[0.25rem] rounded-[1rem] border-color md:h-[21rem]"
+          className="relative md:top-0 -top-6 md:mt-0 mt-6 md:-left-[5rem] border-[0.25rem] rounded-[1rem] border-color md:h-[21rem]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}>
