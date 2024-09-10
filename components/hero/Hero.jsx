@@ -57,7 +57,7 @@ const Hero = () => {
           </p>
 
           {/* tech stack */}
-          <div className="flex gap-8 items-center md:ml-0 base:ml-5 ml-3 mt-2 relative">
+          <div className="flex gap-8 items-center md:ml-0 base:ml-5 ml-2 mt-2 relative">
             <div className="pr-3 border-r-2 img-border font-semibold text-color font-subjectivity md:text-md text-sm">
               Tech Stack
             </div>
