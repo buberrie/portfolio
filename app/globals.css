@@ -223,11 +223,11 @@ h2 {
 }
 
 .input {
-  @apply w-full base:rounded-[2.5rem] rounded-[1.7rem] py-3 px-5 border focus:border-2 transition-all duration-300 focus:outline-none focus:bg-transparent;
+  @apply w-full base:rounded-[2.5rem] rounded-[1.7rem] md:py-3 py-2 md:px-5 px-4 border focus:border-2 transition-all duration-300 focus:outline-none focus:bg-transparent;
 }
 
 .textarea {
-  @apply base:rounded-[1.5rem] rounded-[1.2rem] py-3 px-5 h-[7rem] border focus:border-2 transition-all duration-300;
+  @apply base:rounded-[1.5rem] rounded-[1.2rem]  md:py-3 py-2 md:px-5 px-4 h-[7rem] border focus:border-2 transition-all duration-300;
 }
 
 /* general button styling */
