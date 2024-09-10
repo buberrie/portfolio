@@ -1,0 +1,446 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Subjectivity";
+  src: url("../fonts/Subjectivity-Medium-webfont.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Archia";
+  src: url("../fonts/archia-regular-webfont.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --gradient-color: linear-gradient(to left, #676cff, #b32aee);
+  --gradient-color-2: linear-gradient(to left, #676cff, #b32aee, #676cff, #b32aee);
+
+  --techstack-width: 1.875rem;
+  --initial-left: 8.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-purple_100 text-black_900 max-w-[1440px] mx-auto;
+  font-family: 'Archia', sans-serif;
+}
+
+.dark body {
+  @apply bg-black_900 text-purple_100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Subjectivity", sans-serif;
+}
+
+h2 {
+  @apply md:text-xxl text-xl mb-10 font-semibold
+}
+
+.font-subjectivity {
+  font-family: 'Subjectivity', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #aa00ff;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #676cff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #663dff;
+  cursor: grabbing;
+}
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+/* general padding space */
+.padding-x {
+  @apply lg:px-[5rem] base:px-[3rem] px-[1.5rem];
+}
+
+.padding-y {
+  @apply md:py-[2rem] py-[1rem];
+}
+
+/* general stying */
+.overflow-container {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+.overflow-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.base-text {
+  @apply base:text-base text-sm
+}
+
+.main-bg {
+  @apply bg-purple_100
+}
+
+.dark .main-bg {
+  @apply bg-black_900
+}
+
+.bg-gradient {
+  background: linear-gradient(#f8e8ff31, transparent);
+}
+
+.dark .bg-gradient {
+  background: linear-gradient(#4343433b, transparent);
+}
+
+.bg-gradient-reverse {
+  background: linear-gradient(transparent, #f8e8ff31);
+}
+
+.dark .bg-gradient-reverse {
+  background: linear-gradient(transparent, #3838382c);
+}
+
+.linear-bg {
+  background: var(--gradient-color-2);
+  background-size: 260%;
+}
+
+.linear-bg:hover {
+  animation: textAnimation 750ms ;
+}
+
+.linear-text {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-color {
+  @apply text-black_800
+}
+
+.dark .text-color {
+  @apply text-black_50
+}
+
+.text-color-sm {
+  @apply text-black_500
+}
+
+.dark .text-color-sm {
+  @apply text-black_100
+}
+
+.border-color {
+  @apply border-black_100 divide-black_100
+}
+
+.dark .border-color {
+  @apply border-black_500 divide-black_500
+}
+
+.bg-blur {
+  background: rgba(247, 228, 255, 0.2);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+}
+.dark .bg-blur {
+  background: rgba(51, 51, 51, 0.35);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+}
+
+.box-shadow {
+  box-shadow: 0 0px 10px rgba(197, 24, 255, 0.06), 
+              0 0px 10px rgba(197, 24, 255, 0.06);
+}
+.dark .box-shadow {
+  box-shadow: 0 0px 10px rgba(103, 108, 255, 0.2), 
+              0 0px 10px rgba(103, 108, 255, 0.2);
+}
+
+.tool-bg {
+  @apply border-purple_800 border-[0.105rem] text-purple_800 hover:border-transparent hover:bg-purple_800 hover:text-white cursor-pointer md:text-sm text-s md:px-4 md:py-2 px-3 py-1;
+}
+.dark .tool-bg {
+  @apply border-purple_500 text-purple_500 hover:border-transparent hover:bg-purple_500 hover:text-white;
+}
+
+.bg-blur-colored {
+  background: radial-gradient( rgba(179, 42, 238, 0.13), transparent);
+  filter: blur(20px);
+}
+.dark .bg-blur-colored {
+  background: radial-gradient( rgba(103, 108, 255, 0.25), transparent);
+  filter: blur(20px);
+}
+
+.border-color-base {
+  @apply border-purple_800
+}
+.dark .border-color-base {
+  @apply border-purple_500
+}
+
+.text-color-base {
+  @apply text-purple_800
+}
+.dark .text-color-base {
+  @apply text-purple_500
+}
+
+.input {
+  @apply w-full base:rounded-[2.5rem] rounded-[1.7rem] py-3 px-5 border focus:border-2 transition-all duration-300 focus:outline-none focus:bg-transparent;
+}
+
+.textarea {
+  @apply base:rounded-[1.5rem] rounded-[1.2rem] py-3 px-5 h-[7rem] border focus:border-2 transition-all duration-300;
+}
+
+/* general button styling */
+.btn {
+  @apply  base:py-[0.8125rem] py-[0.625rem] base:px-[1.875rem] px-6 whitespace-nowrap base:text-[1.09rem] text-base cursor-pointer border-none focus:outline-none transition-all hover:scale-100 duration-150 base:rounded-[2.5rem] rounded-[1.7rem] font-subjectivity;
+}
+
+.btn-primary {
+  @apply linear-bg text-purple_100;
+}
+
+.btn-secondary {
+  @apply base:py-[0.8125rem] py-[0.625rem] base:px-[1.875rem] px-6 relative transition-all text-color flex justify-center items-center;
+  background: transparent;
+  z-index: 1;
+}
+
+.btn-secondary:hover {
+  @apply linear-bg text-purple_100;
+}
+
+.btn-secondary::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.1rem);
+  height: calc(100% + 0.1rem);
+  border-radius: 2.5rem;
+  background: var(--gradient-color);
+  z-index: -1;
+  transition: all 0.1s ease;
+  border-radius: inherit;
+  padding: 2px;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+}
+
+.btn-secondary:hover::after {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* hero section */
+.bounce {
+  animation: bounce 3s infinite;
+}
+
+.tech-item {
+  position: absolute;
+  opacity: 0;
+}
+
+/* hero image animation */
+.img-border {
+  @apply border-purple_700
+}
+
+.dark .img-border {
+  @apply border-purple_100
+}
+
+.img-animate {
+  border-radius: 70% 30% 30% 70% / 42% 53% 47% 58% ;
+  animation: blob 15s infinite;
+}
+
+/* waving emoji */
+.emoji {
+  animation: wave 2s infinite ;
+  transform-origin: 70% 70%; /* Adjust origin to make the waving effect more natural */
+}
+
+/* about section */
+.img_content {
+  position: relative;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+}
+
+.flip-parent:hover .img_content {
+  transform: rotateY(-.5turn);
+}
+
+.text-bg-img {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.539), rgba(0, 0, 0, 0.539)),
+    url('/assets/images/profile-img.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img_front,
+.img_back {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.card-text {
+  transform: translateZ(5rem);
+}
+
+.img_back {
+  transform: rotateY(-.5turn);
+}
+
+/* footer */
+.contact {
+  @apply text-color transition-all;
+}
+.contact:hover {
+  @apply text-color-base;
+}
+
+.svg-social:hover path {
+  fill: url(#gradient);
+  transition: fill 0.3s ease;
+}
+
+.svg-project:hover path {
+  stroke: url(#gradient);
+  transition: stroke 0.3s ease;
+}
+
+/* animations */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+}
+50% {
+    transform: translateY(-10px);
+}
+}
+
+@keyframes textAnimation {
+  0% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes iconAnimation {
+    from {
+      left: var(--initial-left);
+      opacity: 0;
+    }
+    to {
+      left: var(--final-left);
+      opacity: 1;
+    }
+}
+
+@keyframes spinAround {
+  0% {
+    scale: 1;
+  }
+  30% {
+    scale: 0.6;
+  }
+  60% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+/* RESPONSIVE DESIGN */
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1190px) and (max-width: 1300px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1190px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  html {
+    font-size: 11px;
+  }
+
+  :root {
+    --techstack-width: 1.75rem;
+  }
+}
+
+@media (max-width: 800px) {
+  :root {
+    --techstack-width: 1.25rem;
+    --initial-left: 7rem;
+  }
+}
+
+@media (max-width: 420px) {
+  :root {
+    --techstack-width: 1rem;
+    --initial-left: 7.5rem;
+  }
+}
