@@ -47,7 +47,7 @@ export const Projects = () => {
   // const opacity = useTransform(scrollY, [0, 300], [1, 0.5]);
 
   return (
-    <section id="projects" className=" flex md:flex-row flex-col-reverse md:gap-16 gap-4 relative justify-between md:mt-20 mt-0 mb-20 md:items-start ">
+    <section id="projects" className=" flex md:flex-row flex-col-reverse md:gap-16 gap-4 relative justify-between md:mt-20 mt-6 mb-20 md:items-start ">
       {/* project content/details */}
       <div className="md:w-[49.5rem] w-full bg-blur md:pt-24 pt-8 pb-10 md:pl-8 md:mr-0 mr-4 rounded-tr-[3rem] rounded-br-[3rem] relative">
         <article className="w-full lg:pl-8 lg:pr-16 base:pr-8">
