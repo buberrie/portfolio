@@ -25,7 +25,7 @@ export const Footer = () => {
       <div className="flex gap-4 items-center md:-ml-20">
         {socialIcon.map((social, index) => (
           <a
-            href="/"
+            href={social.link}
             key={index}
             className=" border-transparent border hover:border-[0.1rem] transition-all w-[1.5rem] h-[1.5rem] text-color a-social">
             {social.icon}
