@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section id="about-me" className="padding-x bg-gradient md:pt-20 pt-14 md:pb-16 pb-10 ">
+    <section id="about-me" className="padding-x bg-gradient md:pt-20 pt-10 md:pb-16 pb-10 ">
       <div className="text-center md:mb-16 mb-8">
         <h2>About <span className="linear-text">Me</span></h2>
       </div>
