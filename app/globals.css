@@ -314,7 +314,7 @@ h2 {
 
 .text-bg-img {
   background: 
-    linear-gradient(rgba(0, 0, 0, 0.539), rgba(0, 0, 0, 0.539)),
+    linear-gradient(rgba(0, 0, 0, 0.653), rgba(0, 0, 0, 0.653)),
     url('/assets/images/profile-img.jpeg');
   background-size: cover;
   background-repeat: no-repeat;

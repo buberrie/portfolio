@@ -11,7 +11,7 @@ const About = () => {
       
       <div className=" flex md:flex-row flex-col justify-between items-center w-full flip-parent">
         {/* image */}
-        <div className=" flip-card md:w-[40%] w-[90%] items-center flex flex-col">
+        <div className=" flip-card md:w-[40%] w-[100%] items-center flex flex-col">
           <div className=" w-full md:h-[30rem] h-[25rem] rounded-[10px] img_content">
             <div className="w-full h-full img_front ">
               <Image
@@ -23,7 +23,7 @@ const About = () => {
               />
             </div>
             <div className="w-full h-full img_back flex-center p-10 rounded-[10px] text-bg-img">
-              <p className="text-center card-text text-purple_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor beatae molestiae et corporis ullam enim fuga ut earum perferendis? Laborum aliquam dolorum sunt sint laboriosam voluptas. Architecto enim eum consequuntur?
+              <p className="text-center base-text card-text text-purple_100 leading-7 tracking-wider font-medium">I enjoy coding, but when I’m not busy developing software, you can often find me in the kitchen developing new recipes. On my lazy days, I’m usually relaxing with a good movie.
               </p>
             </div>
           </div>

@@ -13,7 +13,7 @@ const Page = ({ params }) => {
 
   return (
     <main className="padding-x">
-      <div className="w-full md:h-[35rem] h-[15rem] mt-[1rem]">
+      <div className="w-full md:h-[35rem] h-[14rem] mt-[1rem]">
         <video
           width="1440"
           height="840"
