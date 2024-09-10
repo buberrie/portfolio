@@ -19,7 +19,7 @@ export const Footer = () => {
             stroke-linejoin="round"
           />
         </svg>
-        <a href="mailto:oluebubegloria5@gmail.com" className="underline">oluebubegloria5@gmail.com</a>
+        <a href="mailto:oluebubegloria5@gmail.com" aria-label="Mail this address " className="underline">oluebubegloria5@gmail.com</a>
       </div>
 
       <div className="flex gap-4 items-center md:-ml-20">
@@ -49,7 +49,7 @@ export const Footer = () => {
             stroke-linejoin="round"
           />
         </svg>
-        <span className="underline">+2348105961051</span>
+        <a href="tel:+2348105961051" aria-label="Call this number" className="underline">+2348105961051</a>
       </div>
     </footer>
   );
