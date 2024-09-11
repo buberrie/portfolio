@@ -47,9 +47,9 @@ export const Projects = () => {
   // const opacity = useTransform(scrollY, [0, 300], [1, 0.5]);
 
   return (
-    <section id="projects" className=" flex md:flex-row flex-col-reverse md:gap-16 gap-4 relative justify-between md:mt-20 mt-6 mb-20 md:items-start ">
+    <section id="projects" className=" flex md:flex-row flex-col-reverse md:gap-16 gap-0 relative justify-between md:mt-20 mt-6 mb-0 md:items-start ">
       {/* project content/details */}
-      <div className="md:w-[49.5rem] w-full bg-blur md:pt-24 pt-8 pb-10 md:pl-8 md:mr-0 mr-4 rounded-tr-[3rem] rounded-br-[3rem] relative">
+      <div className="md:w-[49.5rem] w-full bg-blur md:pt-24 pt-10 pb-10 md:pl-8 md:mr-0 mr-4 rounded-tr-[3rem] rounded-br-[3rem] relative">
         <article className="w-full lg:pl-8 lg:pr-16 base:pr-8">
           {projects.map((project, index) => (
             <motion.div
@@ -185,14 +185,14 @@ export const Projects = () => {
 
       {/* project images */}
       <div className="md:w-[40.5rem] md:px-0 px-5 w-full md:pt-14 pt-20 md:pb-20 pb-0 sticky md:top-10 -top-6 md:pr-16">
-        <h2 className=" md:ml-[2rem] md:text-start text-center md:top-0 -top-10 relative">
+        <h2 className=" md:ml-[2rem] md:text-start text-center md:top-0 -top-16 relative">
           Personal <span className="linear-text">Projects</span>
         </h2>
 
         {/* image container */}
         {/* desktop display */}
         <motion.div
-          className="relative md:top-0 -top-10 md:mt-0 mt-6 md:-left-[5rem] border-[0.25rem] rounded-[1rem] border-color md:h-[21rem]"
+          className="relative md:top-0 -top-16 md:mt-0 mt-2 md:-left-[5rem] border-[0.25rem] rounded-[1rem] border-color md:h-[21rem]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}>

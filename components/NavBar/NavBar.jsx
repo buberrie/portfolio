@@ -31,17 +31,27 @@ const NavBar = () => {
       setDarkMode((prevMode) => !prevMode);
     };
 
+    // Add and remove click event listeners to handle clicks outside of the nav
+  useEffect(() => {
+
     const handleClickOutside = (e) => {
       // Check if the click was outside the navRef current element
-      if (navRef.current && !navRef.current.contains(e.target)) {
+      if (navRef.current && !navRef.current.contains(e.target) && openNav === true) {
         setOpenNav(false); // Close nav when clicked outside
       }
     };
 
-    // Attach the click listener to the entire document when nav is open
-    useEffect(() => {
-      document.onclick = handleClickOutside;
-    })
+    if (openNav) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    // Cleanup to avoid adding multiple listeners
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [openNav]);
 
   return (
     <nav className="flex-between sticky top-0 padding-x py-2 main-bg z-50">
