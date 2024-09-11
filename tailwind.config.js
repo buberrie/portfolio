@@ -16,7 +16,6 @@ module.exports = {
     },
     extend: {
         colors: {
-            gray_100: '#E2E6EC',
             purple_100: '#fff',
             purple_500: '#676cff',
             purple_600: '#663dff',
@@ -24,14 +23,9 @@ module.exports = {
             purple_800: '#b32aee',
             black_50: '#E6E6E6',
             black_100: '#B0B0B0',
-            black_200: '#96989E',
-            black_300: '#545454',
             black_500: '#666A72',
             black_800: '#1A202C',
             black_900: '#000000',
-            success: '#22C55E',
-            failed: '#FF4747',
-            warning: '#FACC15',
         },
 
         fontSize: {
@@ -45,7 +39,6 @@ module.exports = {
             xl: "1.5rem", //24px
             xxl: "2rem", //32px
             xxxl: "3rem", //32px
-            xxxxl: "4rem", //32px
         },
     },
 },

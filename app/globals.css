@@ -108,6 +108,14 @@ h2 {
   @apply base:text-base text-sm
 }
 
+.nav-bg {
+  @apply md:bg-transaparent bg-purple_100
+}
+
+.dark .nav-bg {
+  @apply md:bg-transaparent bg-black_900
+}
+
 .main-bg {
   @apply bg-purple_100
 }

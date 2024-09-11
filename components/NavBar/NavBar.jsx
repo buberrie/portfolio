@@ -97,9 +97,9 @@ const NavBar = () => {
       <ul
         className={`flex justify-center items-center ${
           openNav
-            ? " opacity-100 pointer-events-auto"
-            : "md:opacity-100 opacity-0 md:pointer-events-auto pointer-events-none md:bg-transparent main-bg"
-        } md:flex-row flex-col md:relative absolute right-0 md:gap-10 gap-8 text-[1.05rem] top-0 md:p-0 p-10 rounded-bl-xl transition-all duration-500`}>
+            ? "opacity-100 pointer-events-auto"
+            : "md:opacity-100 opacity-0 md:pointer-events-auto pointer-events-none"
+        } md:flex-row flex-col md:relative absolute right-0 md:gap-10 gap-8 text-[1.05rem] nav-bg top-0 md:p-0 p-10 rounded-bl-xl transition-all duration-500`}>
         <li
           className="md:hidden block absolute w-full text-end top-6 right-6 font-semibold"
           onClick={() => {
