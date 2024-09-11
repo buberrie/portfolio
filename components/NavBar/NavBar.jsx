@@ -8,6 +8,7 @@ const NavBar = () => {
     // Set initial state, light mode as default
     const [isDarkMode, setDarkMode] = useState(false);
     const [openNav, setOpenNav] = useState(false);
+    const navRef = useRef(null); // Reference to the nav container
   
     // Sync with localStorage and update document class on mount
     useEffect(() => {
@@ -29,6 +30,16 @@ const NavBar = () => {
     const toggleDarkMode = () => {
       setDarkMode((prevMode) => !prevMode);
     };
+
+    const handleClickOutside = (e) => {
+      // Check if the click was outside the navRef current element
+      if (navRef.current && !navRef.current.contains(e.target)) {
+        setOpenNav(false); // Close nav when clicked outside
+      }
+    };
+
+    // Attach the click listener to the entire document when nav is open
+  document.onclick = handleClickOutside;
 
   return (
     <nav className="flex-between sticky top-0 padding-x py-2 main-bg z-50">
@@ -93,6 +104,7 @@ const NavBar = () => {
 
       {/* nav items */}
       <ul
+        ref={navRef}
         className={`flex justify-center items-center ${
           openNav
             ? "opacity-100 pointer-events-auto"
