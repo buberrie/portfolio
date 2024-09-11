@@ -39,7 +39,9 @@ const NavBar = () => {
     };
 
     // Attach the click listener to the entire document when nav is open
-  document.onclick = handleClickOutside;
+    useEffect(() => {
+      document.onclick = handleClickOutside;
+    })
 
   return (
     <nav className="flex-between sticky top-0 padding-x py-2 main-bg z-50">
