@@ -113,7 +113,7 @@ h2 {
 }
 
 .dark .nav-bg {
-  @apply md:bg-transaparent bg-black_900
+  @apply md:bg-transparent bg-black_900
 }
 
 .main-bg {
