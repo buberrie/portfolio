@@ -184,15 +184,15 @@ export const Projects = () => {
       </div>
 
       {/* project images */}
-      <div className="md:w-[40.5rem] md:px-0 px-5 w-full md:pt-14 pt-16 md:pb-20 pb-0 sticky md:top-10 -top-6 md:pr-16">
-        <h2 className=" md:ml-[2rem] md:text-start text-center md:top-0 -top-6 relative">
+      <div className="md:w-[40.5rem] md:px-0 px-5 w-full md:pt-14 pt-20 md:pb-20 pb-0 sticky md:top-10 -top-6 md:pr-16">
+        <h2 className=" md:ml-[2rem] md:text-start text-center md:top-0 -top-10 relative">
           Personal <span className="linear-text">Projects</span>
         </h2>
 
         {/* image container */}
         {/* desktop display */}
         <motion.div
-          className="relative md:top-0 -top-3 md:mt-0 mt-6 md:-left-[5rem] border-[0.25rem] rounded-[1rem] border-color md:h-[21rem]"
+          className="relative md:top-0 -top-10 md:mt-0 mt-6 md:-left-[5rem] border-[0.25rem] rounded-[1rem] border-color md:h-[21rem]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}>
