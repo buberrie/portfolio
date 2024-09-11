@@ -9,8 +9,6 @@ const NavBar = () => {
     const [isDarkMode, setDarkMode] = useState(false);
     const [openNav, setOpenNav] = useState(false);
   
-    console.log(openNav);
-  
     // Sync with localStorage and update document class on mount
     useEffect(() => {
       // Check if we're on the client side before accessing localStorage
