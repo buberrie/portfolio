@@ -109,7 +109,7 @@ h2 {
 }
 
 .nav-bg {
-  @apply md:bg-transaparent bg-purple_100
+  @apply md:bg-transparent bg-purple_100
 }
 
 .dark .nav-bg {
