@@ -1,6 +1,6 @@
 export const ContactForm = () => {
   return (
-    <section id="contact-me" className=" padding-x mb-20 md:pt-20">
+    <section id="contact-me" className=" padding-x mb-20 md:pt-20 pt-10">
       <h2 className="text-center">Contact</h2>
       <div className=" w-full flex-center flex-col">
       <form action="https://public.herotofu.com/v1/53210c70-6edc-11ef-9149-238dc419cdff" method="post" accept-charset="UTF-8" className="box-shadow bg-blur border-color-base grid gap-6 rounded-[0.5rem] w-[30rem] max-w-full px-6 py-8">
