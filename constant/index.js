@@ -304,20 +304,6 @@ export const socialIcon = [
     id: "github",
     link: "https://github.com/buberrie",
     icon: (
-      // <svg
-      //   className="w-full h-full svg-social"
-      //   width="24"
-      //   height="24"
-      //   viewBox="0 0 24 24"
-      //   fill="none"
-      //   xmlns="http://www.w3.org/2000/svg">
-      //   <path
-      //     fill-rule="evenodd"
-      //     clip-rule="evenodd"
-      //     d="M7 2C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2H7ZM18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7ZM17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12ZM12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"
-      //     fill="currentColor"
-      //   />
-      // </svg>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
@@ -350,4 +336,97 @@ export const socialIcon = [
       </svg>
     ),
   },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    testifier : "jhon does",
+    occupation: "UX/UI designer",
+    profilePic: "/assets/images/profile-img.jpeg",
+    testimony: "I&apos;m a Front-End Developer I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
+    socialMedia : {
+      twitter: {
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+      },
+      linkedin: {
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+      }
+    }
+  },
+  {
+    id: 2,
+    testifier : "jhon does",
+    occupation: "UX/UI designer",
+    profilePic: "/assets/images/profile-img.jpeg",
+    testimony: "I&apos;m a Front-End Developer who thrives on creating web applications that people love to use. I don&apos;t just code, I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
+    socialMedia : {
+      twitter: {
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+      },
+      linkedin: {
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+      }
+    }
+  },
+  {
+    id: 3,
+    testifier : "jhon does",
+    occupation: "UX/UI designer",
+    profilePic: "/assets/images/profile-img.jpeg",
+    testimony: " I don&apos;t just code, I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
+    socialMedia : {
+      twitter: {
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+      },
+      linkedin: {
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+      }
+    }
+  },
+  {
+    id: 4,
+    testifier : "jhon does",
+    occupation: "UX/UI designer",
+    profilePic: "/assets/images/profile-img.jpeg",
+    testimony: "I&apos;m a Front-End Developer who thrives on creating web applications that people love to use. I don&apos;t just code, I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
+    socialMedia : {
+      twitter: {
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+      },
+      linkedin: {
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+      }
+    }
+  },
+  {
+    id: 5,
+    testifier : "jhon does",
+    occupation: "UX/UI designer",
+    profilePic: "/assets/images/profile-img.jpeg",
+    testimony: "I&apos;m a Front-End Developer who thrives on creating web applications that people love to use. I don&apos;t just code, I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability.",
+    socialMedia : {
+      twitter: {
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+      },
+      linkedin: {
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+      }
+    }
+  },
+  {
+    id: 6,
+    testifier : "jhon does",
+    occupation: "UX/UI designer",
+    profilePic: "/assets/images/profile-img.jpeg",
+    testimony: "I&apos;m a Front-End Developer who thrives on creating web applications that people love to use. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
+    socialMedia : {
+      twitter: {
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+      },
+      linkedin: {
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+      }
+    }
+  }
 ];

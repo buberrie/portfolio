@@ -86,7 +86,7 @@ const Hero = () => {
           </div>
 
           {/* download cv button */}
-          <a href="./Gloria Ugwuanyi (resume PDF).pdf" download="./Gloria Ugwuanyi (resume PDF).pdf"><button className="btn-secondary btn md:mt-10 mt-7 w-fit md:mx-0 mx-auto">Download CV</button></a>
+        <a href="./Gloria Ugwuanyi (developer).pdf" download="./Gloria Ugwuanyi (developer).pdf"><button className="btn-secondary btn md:mt-10 mt-7 w-fit md:mx-0 mx-auto">Download CV</button></a>
         </div>
 
         {/* hero section image only visible on large screen */}

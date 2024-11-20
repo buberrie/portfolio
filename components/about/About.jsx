@@ -15,14 +15,14 @@ const About = () => {
           <div className=" w-full md:h-[30rem] h-[25rem] rounded-[10px] img_content">
             <div className="w-full h-full img_front ">
               <Image
-                src="/assets/images/profile-img.jpeg"
+                src="/assets/images/profile-img.jpg"
                 alt="Gloria Ugwuanyi"
                 width={1000}
                 height={1000}
                 className="w-full h-full object-cover rounded-[10px] "
               />
             </div>
-            <div className="w-full h-full img_back flex-center p-10 rounded-[10px] text-bg-img">
+            <div className="w-full h-full img_back flex-center p-10 rounded-[10px] text-bg-img border border-red-500">
               <p className="text-center base-text card-text text-purple_100 leading-7 tracking-wider font-medium">I enjoy coding, but when I’m not busy developing software, you can often find me in the kitchen developing new recipes. On my lazy days, I’m usually relaxing with a good movie.
               </p>
             </div>

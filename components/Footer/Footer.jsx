@@ -2,7 +2,7 @@ import { socialIcon } from "@/constant";
 
 export const Footer = () => {
   return (
-    <footer className="stick bottom-0 padding-x md:py-3 py-5 bordr-t border-color mt-20 flex md:gap-0 gap-3 md:flex-row flex-col justify-between items-center bg-blur z-50">
+    <footer className="stick bottom-0 padding-x md:py-3 py-5 bordr-t border-color mt-20 flex md:gap-0 gap-7 md:flex-row flex-col justify-between items-center bg-blur z-50">
       <div className="flex gap-2 items-center contact cursor-pointer">
         <svg
           className="w-[1.2rem] h-[1.2rem]"

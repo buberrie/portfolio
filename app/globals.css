@@ -323,8 +323,9 @@ h2 {
 .text-bg-img {
   background: 
     linear-gradient(rgba(0, 0, 0, 0.653), rgba(0, 0, 0, 0.653)),
-    url('/assets/images/profile-img.jpeg');
+    url('/assets/images/profile-img-back.jpg');
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
