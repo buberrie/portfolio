@@ -51,82 +51,75 @@ export const projects = [
     id: 1,
     title: "barta",
     subtitle: "P2P currency exchange platform",
-    text: "Project Barta is a peer-to-peer platform for fiat-to-crypto and crypto-to-fiat currency conversion, aimed at solving the high-cost challenges faced by many African countries when receiving payments in foreign currencies. It offers a more efficient and affordable alternative to traditional third-party applications that charge high service fees. Barta serves individuals and businesses needing quick and cost-effective currency conversion channels. The project was conceived by a UI/UX designer, and I am developing the frontend as part of my portfolio. Currently, the project is still in progress, with the landing page completed so far.",
+    text: "Project Barta is a peer-to-peer platform designed for seamless fiat-to-crypto and crypto-to-fiat currency conversions, addressing the high costs associated with receiving foreign payments in many African countries. By offering a more affordable and efficient alternative to traditional third-party applications with exorbitant fees, Barta empowers individuals and businesses with quick, cost-effective currency conversion solutions. Conceived by a UI/UX designer, I am bringing the frontend to life as part of my portfolio. Currently, the project is in progress, with the landing page successfully completed.",
     longText: (
       <article>
-        <h3 className="semibold mt-4 mb-3 md:text-lg text-base">Overview:</h3>
+        <h3 className="semibold mt-4 mb-3 md:text-xl text-md">Overview:</h3>
         <p className="base-text leading-7 text-color">
-          Project Barta is a peer-to-peer fiat-to-crypto and crypto-to-fiat
-          currency conversion platform designed to address the challenges faced
-          by many African countries when receiving payments in foreign
-          currencies. Traditional third-party applications often charge high
-          service fees for currency conversion, making it costly for users.
-          Barta aims to provide a more efficient and affordable solution for
-          individuals and businesses needing quick and cost-effective currency
-          conversion channels.
-          <br />
-          Developed in collaboration with a UI/UX designer who conceived the
-          idea, I am currently building the frontend as part of my portfolio.
-          The project is still a work in progress, and so far, I have developed
-          the landing page.
+          Project Barta is a peer-to-peer currency conversion platform tailored
+          to address the challenges many African countries face when receiving
+          payments in foreign currencies. Traditional third-party services often
+          impose steep fees, making transactions costly for users. Barta aims to
+          disrupt this norm by providing a fast, efficient, and budget-friendly
+          alternative for individuals and businesses alike. <br /> Developed in
+          collaboration with a UI/UX designer who envisioned the idea, I am
+          building the frontend as a showcase of my development expertise. With
+          the landing page complete, the project remains a work in progress.
         </p>
-        <h3 className="semibold mt-4 mb-3 md:text-lg text-base">
+        <h3 className="semibold mt-4 mb-3 md:text-xl text-md">
           Technologies Used:
         </h3>
         <ul className="base-text flex flex-col gap-3 leading-7 text-color">
           <li className="list-disc my-1">
-            <b>Next.js:</b> Chosen for its advanced capabilities over React,
-            providing enhanced features that make development more efficient.
+            <b>Next.js:</b> Leveraged for its advanced capabilities, enabling
+            efficient development with server-side rendering and performance
+            optimization.
           </li>
           <li className="list-disc my-1">
-            <b>Tailwind CSS:</b> Used for its flexibility and powerful utility
-            classes, allowing rapid and responsive design.
+            <b>Tailwind CSS:</b> Utilized for its utility-first approach, making
+            it easy to craft responsive, visually appealing designs quickly.
           </li>
         </ul>
-        <h3 className="semibold mt-4 mb-3 md:text-lg text-base">
+        <h3 className="semibold mt-4 mb-3 md:text-xl text-md">
           Project Features:
         </h3>
         <p className="base-text leading-7 text-color">
-          The dashboard is designed to display sales history and track sales
-          performance. The simplicity of the design belies the technical
-          challenges it presented, particularly the analytics section.
+          The dashboard is designed to provide users with detailed insights into
+          sales history and performance metrics. While the design is
+          intentionally clean and simple, it required solving intricate
+          technical challenges, especially in the analytics section.
         </p>
-        <h3 className="semibold mt-4 mb-3 md:text-lg text-base">
+        <h3 className="semibold mt-4 mb-3 md:text-xl text-md">
           Challenges and Solutions:
         </h3>
         <ul className="flex flex-col gap-3 base-text leading-7 text-color">
           <li className="list-disc">
-            <b>developing the dashed animated line:</b> This project taught me
-            the value of SVGs beyond their lightweight nature, particularly in
-            the line animation section, where I used an SVG rectangle to achieve
-            more responsive and dynamic styling.
+            <b>Crafting an Animated Dashed Line:</b> This project expanded my
+            understanding of SVGs, showcasing their versatility in creating
+            lightweight yet dynamic animations. I used an SVG rectangle to
+            achieve a responsive and visually appealing animated line effect.
           </li>
           <li className="list-disc">
-            <b>Enhancing Animation Skills:</b> Previously hesitant to work with
-            animations, this project pushed me to incorporate subtle animations
-            and transitions, demonstrating their significant impact on user
-            experience. I learned the importance of these details in enhancing
-            interactivity and visual appeal.
+            <b>Improving Animation Techniques:</b> Embracing animations, once a
+            challenge for me, became a rewarding experience. I integrated subtle
+            transitions and effects that greatly enhanced the overall user
+            experience, reinforcing the importance of such details in modern
+            design.
           </li>
           <li className="list-disc">
-            <b>Exploring Linear Gradients and Backdrop Filters:</b> Working on
-            Barta introduced me to the powerful aesthetic capabilities of linear
-            gradients and backdrop filters. These tools not only enhanced the
-            visual design but also boosted my confidence and understanding of
-            modern CSS techniques.
+            <b>Mastering Linear Gradients and Backdrop Filters:</b> Working on
+            Barta allowed me to explore these powerful CSS tools, adding depth
+            and sophistication to the design while strengthening my confidence
+            in advanced frontend styling.
           </li>
         </ul>
-        <h3 className="semibold mt-4 mb-3 md:text-lg text-base">
-          {" "}
-          Reflection:
-        </h3>
+        <h3 className="semibold mt-4 mb-3 md:text-xl text-md">Reflection:</h3>
         <p className="base-text leading-7 text-color">
-          Though Barta is still in development, the journey so far has been a
-          rewarding learning experience, enhancing my animation skills and
-          deepening my appreciation for the flexibility of modern frontend
-          technologies. This project continues to be an excellent platform for
-          refining my technical skills and exploring creative frontend
-          solutions.
+          Though still in development, Project Barta has been a journey of
+          growth and discovery. From improving my animation skills to deepening
+          my understanding of modern frontend technologies, this experience has
+          been invaluable. It continues to be a creative playground for refining
+          my technical expertise and delivering innovative solutions.
         </p>
       </article>
     ),
@@ -142,77 +135,79 @@ export const projects = [
     id: 2,
     title: "dashboard",
     subtitle: "A sales dashboard",
-    text: "Project Dashboard, was developed for a hackathon challenge, it is a dashboard application designed to help businesses track their sales history and performance. It features a sophisticated analytics section, and a recent orders section structured with HTML tables. This project is Aimed at business owners and sales teams, it addresses the need for a user-friendly interface to monitor and analyze sales data efficiently. Although the project was not submitted, it served as a valuable learning experience, I personally tackled the challenges of building the analytics section, designing the sidebar, and creating the recent orders table, which significantly advanced my frontend development capabilities.",
+    text: "Project Dashboard was developed for a hackathon challenge and serves as a comprehensive application for businesses to track sales history and performance. It features a robust analytics section and a recent orders table built with HTML, designed to meet the needs of business owners and sales teams. The project focuses on delivering a user-friendly interface for efficient sales monitoring and analysis. Although the project wasn’t submitted due to a missed deadline, it proved to be a significant learning experience. I personally tackled challenges such as building the analytics section, designing the sidebar, and creating the recent orders table, greatly enhancing my frontend development skills.",
     longText: (
       <article>
-        <h3 className="semibold mt-4 mb-3 md:text-lg text-base">Overview:</h3>
+        <h3 className="semibold mt-4 mb-3 md:text-xl text-md">
+          Overview:
+        </h3>
         <p className="base-text leading-7 text-color">
-          This project was developed as part of a hackathon challenge. Despite
-          discovering the competition late and missing the submission deadline,
-          the project became a valuable learning experience, pushing the
-          boundaries of my skills with Next.js and Tailwind CSS, both of which
-          were new to me at the time.
+          Developed for a hackathon challenge, this project aimed to create a
+          dashboard application for businesses to efficiently track sales
+          history and performance. Despite missing the submission deadline due
+          to a late discovery of the competition, the project became a valuable
+          learning experience, expanding my skills in Next.js and Tailwind
+          CSS—both new tools for me at the time.
         </p>
-        <h3 className="semibold mt-4 mb-3 md:text-lg text-base">
+        <h3 className="semibold mt-4 mb-3 md:text-xl text-md">
           Technologies Used:
         </h3>
         <ul className="base-text flex flex-col gap-3 leading-7 text-color">
           <li className="list-disc my-1">
-            <b>React.js:</b> I chose React.js to deepen my understanding of the
-            framework.
+            <b>React.js:</b> Chosen to deepen my understanding of the framework
+            and its component-based architecture.
           </li>
           <li className="list-disc my-1">
-            <b>Tailwind CSS:</b> Tailwind was another new tool I explored,
-            enhancing my styling capabilities.
+            
+            <b>Tailwind CSS:</b> A new styling tool I explored, which
+            significantly improved my ability to create responsive and clean
+            designs efficiently.
           </li>
         </ul>
-        <h3 className="semibold mt-4 mb-3 md:text-lg text-base">
+        <h3 className="semibold mt-4 mb-3 md:text-xl text-md">
           Project Features:
         </h3>
         <p className="base-text leading-7 text-color">
           The dashboard is designed to display sales history and track sales
-          performance. The simplicity of the design belies the technical
-          challenges it presented, particularly the analytics section.
+          performance. While the design is straightforward, implementing the
+          analytics section and recent orders table presented exciting technical
+          challenges that helped me grow as a developer.
         </p>
-        <h3 className="semibold mt-4 mb-3 md:text-lg text-base">
+        <h3 className="semibold mt-4 mb-3 md:text-xl text-md">
           Challenges and Solutions:
         </h3>
         <ul className="flex flex-col gap-3 base-text leading-7 text-color">
           <li className="list-disc">
-            <b>Building the Analytics Section:</b> The most challenging aspect
-            was the bar chart in the analytics section. At the time, I was
-            unfamiliar with libraries like Chart.js, and my instinct was to
-            tackle the problem with CSS rather than immediately relying on
-            external tools. This approach tested my problem-solving skills and
-            allowed me to gain confidence in creating complex designs using CSS
-            alone.
+            <b>Building the Analytics Section:</b> Creating a bar chart in the
+            analytics section was challenging due to my lack of experience with
+            libraries like Chart.js. Instead of relying on external tools, I
+            used CSS to tackle the problem, improving my problem-solving skills
+            and building confidence in crafting complex visualizations
+            independently.
           </li>
           <li className="list-disc">
-            <b>Designing the Sidebar:</b> This was my first time working on a
-            dashboard, and the lack of a mobile design in the provided Figma
-            file inspired me to create a unique solution. Instead of a
-            traditional hamburger icon, I designed a mini sidebar for mobile,
-            which added a touch of originality to the project.
+            <b>Designing the Sidebar:</b> As my first dashboard project, I faced
+            the challenge of creating a responsive design without a mobile
+            layout from the provided Figma file. I designed a mini sidebar for
+            mobile, replacing the traditional hamburger menu with an original
+            and practical solution.
           </li>
           <li className="list-disc">
-            <b>Building the Recent Orders Section:</b> I opted to use HTML table
-            elements instead of CSS Grid, as I wanted to improve my proficiency
-            with tables. This choice brought its own set of challenges, but
-            ultimately, it enriched my understanding of structuring data within
-            a web application.
+            <b>Developing the Recent Orders Section:</b> To refine my skills
+            with HTML tables, I opted to use table elements rather than CSS
+            Grid. This decision introduced its own challenges but ultimately
+            enhanced my understanding of how to structure and display tabular
+            data effectively.
           </li>
         </ul>
-        <h3 className="semibold mt-4 mb-3 md:text-lg text-base">
-          {" "}
-          Reflection:
-        </h3>
+        <h3 className="semibold mt-4 mb-3 md:text-xl text-md">Reflection:</h3>
         <p className="base-text leading-7 text-color">
-          Although I couldn’t submit the project, the process was incredibly
-          rewarding. Each challenge, from implementing the charts to refining
-          the sidebar, significantly improved my frontend development skills.
-          This project not only tested my technical abilities but also
-          solidified my confidence in using new tools and techniques in web
-          development.
+          Though the project wasn’t submitted, it was an immensely rewarding
+          experience. Tackling the analytics section, refining the sidebar, and
+          structuring the recent orders table pushed me to grow as a developer.
+          This project not only strengthened my technical abilities but also
+          solidified my confidence in exploring and applying new tools and
+          techniques in web development.
         </p>
       </article>
     ),
@@ -312,7 +307,9 @@ export const socialIcon = [
         height="100"
         viewBox="0 0 30 30"
         className="w-full h-full svg-social">
-        <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z" fill="currentColor"></path>
+        <path
+          d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"
+          fill="currentColor"></path>
       </svg>
     ),
   },
@@ -341,92 +338,98 @@ export const socialIcon = [
 export const testimonials = [
   {
     id: 1,
-    testifier : "jhon does",
+    testifier: "jhon does",
     occupation: "UX/UI designer",
     profilePic: "/assets/images/profile-img.jpeg",
-    testimony: "I&apos;m a Front-End Developer I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
-    socialMedia : {
+    testimony:
+      "I&apos;m a Front-End Developer I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
+    socialMedia: {
       twitter: {
-        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie",
       },
       linkedin: {
-        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
-      }
-    }
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie",
+      },
+    },
   },
   {
     id: 2,
-    testifier : "jhon does",
+    testifier: "jhon does",
     occupation: "UX/UI designer",
     profilePic: "/assets/images/profile-img.jpeg",
-    testimony: "I&apos;m a Front-End Developer who thrives on creating web applications that people love to use. I don&apos;t just code, I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
-    socialMedia : {
+    testimony:
+      "I&apos;m a Front-End Developer who thrives on creating web applications that people love to use. I don&apos;t just code, I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
+    socialMedia: {
       twitter: {
-        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie",
       },
       linkedin: {
-        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
-      }
-    }
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie",
+      },
+    },
   },
   {
     id: 3,
-    testifier : "jhon does",
+    testifier: "jhon does",
     occupation: "UX/UI designer",
     profilePic: "/assets/images/profile-img.jpeg",
-    testimony: " I don&apos;t just code, I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
-    socialMedia : {
+    testimony:
+      " I don&apos;t just code, I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
+    socialMedia: {
       twitter: {
-        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie",
       },
       linkedin: {
-        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
-      }
-    }
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie",
+      },
+    },
   },
   {
     id: 4,
-    testifier : "jhon does",
+    testifier: "jhon does",
     occupation: "UX/UI designer",
     profilePic: "/assets/images/profile-img.jpeg",
-    testimony: "I&apos;m a Front-End Developer who thrives on creating web applications that people love to use. I don&apos;t just code, I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
-    socialMedia : {
+    testimony:
+      "I&apos;m a Front-End Developer who thrives on creating web applications that people love to use. I don&apos;t just code, I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
+    socialMedia: {
       twitter: {
-        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie",
       },
       linkedin: {
-        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
-      }
-    }
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie",
+      },
+    },
   },
   {
     id: 5,
-    testifier : "jhon does",
+    testifier: "jhon does",
     occupation: "UX/UI designer",
     profilePic: "/assets/images/profile-img.jpeg",
-    testimony: "I&apos;m a Front-End Developer who thrives on creating web applications that people love to use. I don&apos;t just code, I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability.",
-    socialMedia : {
+    testimony:
+      "I&apos;m a Front-End Developer who thrives on creating web applications that people love to use. I don&apos;t just code, I craft – fusing beautiful design with intuitive interfaces that make users smile. My secret weapon? A keen eye for usability.",
+    socialMedia: {
       twitter: {
-        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie",
       },
       linkedin: {
-        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
-      }
-    }
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie",
+      },
+    },
   },
   {
     id: 6,
-    testifier : "jhon does",
+    testifier: "jhon does",
     occupation: "UX/UI designer",
     profilePic: "/assets/images/profile-img.jpeg",
-    testimony: "I&apos;m a Front-End Developer who thrives on creating web applications that people love to use. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
-    socialMedia : {
+    testimony:
+      "I&apos;m a Front-End Developer who thrives on creating web applications that people love to use. My secret weapon? A keen eye for usability. Translating complex requirements into user-friendly experiences is my superpower, and it&apos;s what keeps users engaged and coming back for more.",
+    socialMedia: {
       twitter: {
-        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie",
       },
       linkedin: {
-        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie"
-      }
-    }
-  }
+        link: "https://www.linkedin.com/in/gloria-ugwuanyi-buberrie",
+      },
+    },
+  },
 ];

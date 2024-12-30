@@ -31,25 +31,7 @@ const About = () => {
 
         {/* main content */}
         <div className="md:w-[53%] base:w-[55%] w-full base-text md:mt-0 mt-14 ">
-          <p className="leading-7 text-color">
-            I&apos;m a Front-End Developer who thrives on creating web
-            applications that people love to use. I don&apos;t just code, I
-            craft – fusing beautiful design with intuitive interfaces that make
-            users smile. My secret weapon? A keen eye for usability. Translating
-            complex requirements into user-friendly experiences is my
-            superpower, and it&apos;s what keeps users engaged and coming back
-            for more.
-          </p>
-          <br />
-          <p className="leading-7 flip-cards text-color">
-            More than just a design whiz, I&apos;m also a master of efficiency,
-            juggling multiple projects with ease. My skills in resource
-            allocation and meeting deadlines ensure timely and smooth
-            development. And because clear communication is key, I collaborate
-            seamlessly with cross-functional teams, translating technical jargon
-            into plain English for everyone to understand. The result?
-            High-quality, bug-free applications that exceed expectations.
-          </p>
+        <p className="leading-7 text-color"> I’m a Front-End Developer passionate about building web applications that not only look great but work seamlessly. I combine clean, modern design with user-focused functionality to create interfaces that feel effortless. My strength lies in turning complex ideas into simple, intuitive experiences that keep users engaged and coming back. </p> <br /> <p className="leading-7 flip-cards text-color"> Beyond crafting elegant designs, I excel at delivering efficient, reliable solutions. Whether managing tight deadlines or collaborating with cross-functional teams, I thrive on turning challenges into results. With a sharp eye for detail and clear communication, I ensure every project runs smoothly and exceeds expectations—because great apps don’t just happen; they’re built with purpose. </p>
 
           {/* tech stack */}
           <div className="flex flex-wrap md:gap-5 gap-3 mt-10">

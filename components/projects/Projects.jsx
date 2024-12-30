@@ -71,7 +71,6 @@ export const Projects = () => {
                 <h3 className="md:text-xl text-lg mb-6 font-semibold capitalize">
                   {project.title}
                   <span className=" font-normal text-color-sm text-sm">
-                    {" "}
                     - {project.subtitle}
                   </span>
                 </h3>
